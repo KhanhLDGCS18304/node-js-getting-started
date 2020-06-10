@@ -1,1 +1,1 @@
-web: node Promt.js
+web: node test.js
