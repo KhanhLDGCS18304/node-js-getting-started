@@ -1,6 +1,6 @@
 var http = require('http');
 var lanthu=0;
-const port = process.env.port || 5000
+const PORT = process.env.port || 5000;
 function Xulyweb (req, res) {
     lanthu++;
   res.writeHead(200, {'Content-Type': 'text/html'});
@@ -9,5 +9,5 @@ function Xulyweb (req, res) {
   +"<BR>localhost:8080"
   +"<BR>lan thu-"+lanthu);
 };
-http.createServer(Xulyweb).listen(port);
+http.createServer(Xulyweb).listen(PORT);
 console.log("Nodejs dang run o server!");
