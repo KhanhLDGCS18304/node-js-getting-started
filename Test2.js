@@ -8,6 +8,6 @@ function Xulyweb (req, res) {
   +"<BR>http://127.0.0.1:8080/"
   +"<BR>localhost:8080"
   +"<BR>lan thu-"+lanthu);
-};
+}
 http.createServer(Xulyweb).listen(80);
 console.log("Nodejs dang run o server!");
