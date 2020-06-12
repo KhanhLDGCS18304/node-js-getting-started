@@ -9,5 +9,5 @@ function Xulyweb (req, res) {
   +"<BR>localhost:8080"
   +"<BR>lan thu-"+lanthu);
 }
-http.createServer(Xulyweb).listen(80);
+http.createServer(Xulyweb).listen(PORT);
 console.log("Nodejs dang run o server!");
